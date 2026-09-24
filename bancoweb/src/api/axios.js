@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const api = axios.create({
-    baseURL: 'https://mi-banco-backend.onrender.com'
+export const api = axios.create({
+    baseURL: 'https://mi-banco-backend.onrender.com/api'
 });
 
 //Creo el interceptor para adjuntar automaticamente el token

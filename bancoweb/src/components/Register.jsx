@@ -67,7 +67,7 @@ export const Register = ({ onIrALogin }) => {
                 name="documento"
                 className="form-control"
                 placeholder="Número de documento"
-                value={FormData.documento}
+                value={formData.documento}
                 onChange={handleChange}
                 required
               />
