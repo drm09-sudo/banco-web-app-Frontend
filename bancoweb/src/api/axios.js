@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api'
+    baseURL: 'https://mi-banco-backend.onrender.com'
 });
 
 //Creo el interceptor para adjuntar automaticamente el token
